@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.filter-selection {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.client-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-left: 20px;
+}
